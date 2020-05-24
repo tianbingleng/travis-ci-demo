@@ -30,4 +30,12 @@ public class TwoSumTest {
         Assert.assertArrayEquals(expect, result);
     }
 
+    @Test
+    public void test_4() {
+        int[] nums = new int[]{2,7,11,15};
+        int target = 18;
+        int[] result = testDrive.solution(nums, target);
+        Assert.assertArrayEquals(null, result);
+    }
+
 }
