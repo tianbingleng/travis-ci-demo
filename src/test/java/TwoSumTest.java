@@ -35,7 +35,8 @@ public class TwoSumTest {
         int[] nums = new int[]{2,7,11,15};
         int target = 18;
         int[] result = testDrive.solution(nums, target);
-        Assert.assertArrayEquals(null, result);
+        int[] expect = new int[]{1, 2};
+        Assert.assertArrayEquals(expect, result);
     }
 
 }
