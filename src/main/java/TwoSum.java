@@ -16,4 +16,8 @@ public class TwoSum {
         }
         return null;
     }
+
+    public void fixbug() {
+        System.out.println("Just a comment");
+    }
 }
