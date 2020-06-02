@@ -16,4 +16,8 @@ public class TwoSum {
         }
         return null;
     }
+
+    public void feature_method() {
+        System.out.println("comment for feature branch");
+    }
 }
