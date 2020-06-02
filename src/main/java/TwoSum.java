@@ -20,4 +20,8 @@ public class TwoSum {
     public void fixbug() {
         System.out.println("Just a comment");
     }
+
+    public void feature_method() {
+        System.out.println("comment for feature branch");
+    }
 }
